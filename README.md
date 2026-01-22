@@ -3,12 +3,6 @@
 
 ---
 
-# Projeto de Convites Automatizados
- 
-**Projeto pessoal:** envio automatizado de convites usando **Google Forms**, **Python**, **Excel**, **Docker** e **Evolution API**.
-
----
-
 ## Quando o casamento encontra a tecnologia
 
 Para o meu próprio casamento, criei uma solução personalizada para enviar convites, organizar confirmações de presença e gerenciar transporte, tudo de forma **automatizada**.  
