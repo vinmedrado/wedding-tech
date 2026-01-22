@@ -47,9 +47,9 @@ TipoAlterado = Table.TransformColumnTypes(Fonte, {
     {"Você irá de Ônibus ?", type text}
 })
 in TipoAlterado
-
-Observação: Para uso real, substitua a fonte por um Google Form ou Google Sheets publicado como CSV.
 ```
+**Observação:** Para uso real, substitua a fonte por um Google Form ou Google Sheets publicado como CSV.
+
 ---
 
 ## Links de Formulário e PDF
@@ -93,10 +93,9 @@ API_KEY = os.getenv("API_KEY")
 ---
 
 ## Docker + Evolution API
-```m
+
 O Docker Compose inicia a instância da Evolution API para envio de WhatsApp.
 O script Python se conecta à API usando a API_KEY do .env.
-```
 
 ---
 
