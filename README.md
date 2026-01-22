@@ -55,7 +55,7 @@ TipoAlterado = Table.TransformColumnTypes(Fonte, {
 in TipoAlterado
 
 Observação: Para uso real, substitua a fonte por um Google Form ou Google Sheets publicado como CSV.
-
+```
 ---
 
 ## Links de Formulário e PDF
