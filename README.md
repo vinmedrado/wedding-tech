@@ -105,7 +105,7 @@ O script Python se conecta à API usando a API_KEY do .env.
 ---
 
 ## Fluxo do projeto (Visual)
-
+```m
 💌 Google Forms → coleta de respostas dos convidados (nome, família, transporte)
 ⬇️
 📊 Planilhas + Power Query → organiza os dados
@@ -117,3 +117,4 @@ O script Python se conecta à API usando a API_KEY do .env.
 💬 WhatsApp → envio de mensagens e PDFs
 ⬇️
 🎉 Convidados → recebem o convite e confirmam presença
+```
