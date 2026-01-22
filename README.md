@@ -101,15 +101,15 @@ O script Python se conecta à API usando a API_KEY do .env.
 
 ## Fluxo do projeto (Visual)
 ```m
-💌 Google Forms → coleta de respostas dos convidados (nome, família, transporte)
+🐳 Docker + Evolution API → envia mensagens WhatsApp
 ⬇️
-📊 Planilhas + Power Query → organiza os dados
+🐍 Python → pega contatos da planilha, gera links e PDFs
 ⬇️
-🐍 Script Python → gera links, agrupa por família e prepara envio
+📊 Excel / Planilhas → armazena e organiza os dados
 ⬇️
-🐳 Docker + Evolution API → integração com WhatsApp
+💬 WhatsApp → envio de mensagens + PDFs
 ⬇️
-💬 WhatsApp → envio de mensagens e PDFs
+💌 Google Forms → convidados confirmam presença e transporte
 ⬇️
-🎉 Convidados → recebem o convite e confirmam presença
+📊 Excel / Planilhas → recebe as confirmações
 ```
