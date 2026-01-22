@@ -60,20 +60,21 @@ Observação: Para uso real, substitua a fonte por um Google Form ou Google Shee
 
 ## Links de Formulário e PDF
 
-Google Forms
+**Google Forms**
 No Excel, você pode gerar links dinâmicos para cada convidado:
+```m
 =HIPERLINK(
  "https://docs.google.com/forms/d/e/EXEMPLO_DO_FORMULARIO/viewform?usp=pp_url"&
  "&entry.47010176="&SUBSTITUIR(A2;" ";"%20")&
  "&entry.163752669="&SUBSTITUIR(D2;" ";"%20"),
  "Confirmar Presença"
 )
-
-Google Drive (PDF)
+```
+**Google Drive (PDF)**
 Para anexar PDFs de convite, use links de download direto:
 https://drive.google.com/uc?export=download&id=EXEMPLO_DO_PDF
 
-Substitua EXEMPLO_DO_PDF pelo ID real do arquivo no Google Drive.
+Substitua **EXEMPLO_DO_PDF** pelo ID real do arquivo no Google Drive.
 
 ---
 
@@ -84,23 +85,24 @@ O script faz a leitura da planilha de convidados, gera links dinâmicos para for
 Usa o arquivo .env para manter a API_KEY segura.
 
 Exemplo de configuração .env:
-API_KEY=SUACHAVEAQUI
+**API_KEY=SUACHAVEAQUI**
 
 No script Python, use:
+```m
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
-
+```
 
 ---
 
 ## Docker + Evolution API
-
+```m
 O Docker Compose inicia a instância da Evolution API para envio de WhatsApp.
 O script Python se conecta à API usando a API_KEY do .env.
-
+```
 
 ---
 
